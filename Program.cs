@@ -10,14 +10,15 @@ namespace DesktopSorter
 		{
 			Tuple.Create("Binaries",            new []{ ".exe" }),
 			Tuple.Create("Scripts",             new []{ ".bat", ".vbs", ".js",  ".ps1" }),
-			Tuple.Create("Images",              new []{ ".png", ".bmp", ".jpg", ".jpeg", ".gif", ".ico", ".svg" }),
+			Tuple.Create("Images",              new []{ ".png", ".bmp", ".jpg", ".jpeg", ".gif", ".ico", ".svg", ".webp" }),
 			Tuple.Create("Audio",               new []{ ".ogg", ".mid", ".mp3", ".wav",  ".wma" }),
 			Tuple.Create("Documents",           new []{ ".txt", ".rtf", ".doc" }),
-			Tuple.Create("Videos",              new []{ ".mp4", ".mkv", ".avi", ".wmv" }),
+			Tuple.Create("Videos",              new []{ ".mp4", ".mkv", ".avi", ".wmv", ".webm" }),
 			Tuple.Create("Scratch Projects",    new []{ ".sb",  ".sb2", ".sb3" }),
 			Tuple.Create("Source Engine Files", new []{ ".vtf", ".vmt" }),
 			Tuple.Create("Shortcuts",           new []{ ".lnk", ".url" }),
 			Tuple.Create("Archives",            new []{ ".zip", ".tar" }),
+			Tuple.Create("Fonts",               new []{ ".fon", ".ttf", ".ttc" })
 		};
 
 		private static void Main()
